@@ -389,7 +389,7 @@ flex-grow: 0;
     color: #1D1D1D;
 }
 .design-space {
-    background-image: url(../image/design-space-paper-textured-background\ 3.png);
+    background-image: url(../image/design-space-paper-textured-background.png);
     position: absolute;
     width: 1440px;
     height: 2400px;
@@ -599,4 +599,187 @@ height: 541px;
 .clone-trusted {
     width: 417px;
     height: 96px;
+}
+
+.table-3 {
+    display: flex;
+    width: 1440px;
+    height: 350px;
+
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+
+    position: absolute;
+    top: 4550px;
+}
+.growing {
+    position: absolute;
+    width: 1440px;
+    height: 410px;
+    left: 0px;
+    top: 4708px;
+    background: rgba(246, 35, 105, 0.05);
+
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 10px;
+}
+.clone_growing {
+    flex: 6;
+    height: 30px;
+}
+.growing h2 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    flex:1;
+}
+.businesses {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    flex:1;
+}
+#fixlogo {
+    width: 150px;
+    height: 150px;
+}
+.businesses-partner {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 1440px;
+    height: 830px;
+
+    position: absolute;
+    top: 5120px;
+}
+.businesses-partne-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+
+    width: 730px;
+}
+.businesses-partne-text h3 {
+    width: 258px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.businesses-partne-text p {
+    width: 730px;
+    
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+
+    text-align: center;
+    color:#1D1D1D
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.businesses-partne-img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+}
+.businesses-nav-1 {
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap: 10px;
+
+width: 1440px;
+height: 454px;
+}
+#fruit {
+    width: 286px;
+    height: 363px;
+}
+#buniser {
+    width: 354px;
+    height: 454px;
+}
+#white_flower {
+    width: 286px;
+    height: 363px;
+}
+.businesses-nav-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+
+    width: 1200px;
+    height: 52px;
+}
+.statistics {
+
+    position: absolute;
+    width: 1440px;
+    height: 618px;
+    left: 0px;
+    top: 6020px;
+
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+    background-image: url(../image/bg_statis.png);
+    background-color: #e5f00d;
+}
+.statistics h3 {
+    text-align: center;
+    font-family: 'Agrandir';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+    
+    color: #1D1D1D;   
+}
+.statistics img {
+    width: 373px;
+    height: 497px;
+}
+.eight-t {
+    display: flex;
+}
+.eight-t h2 {
+    width: 277px;
+    height: 91px;
+
+    font-family: 'Agrandir';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 91px;
 }
