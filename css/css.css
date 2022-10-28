@@ -40,6 +40,13 @@ header {
     order: 0;
     flex-grow: 0;
 }
+main {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+
+}
 .main-nav {
     display: flex;
     flex-direction: row;
@@ -1080,4 +1087,137 @@ padding-left: 0;
     flex: none;
     order: 0;
     flex-grow: 0;
+}
+.questions {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 1200px;
+    height: 380px;
+    top: 8550px;
+
+    background: #FFCB47;
+    border-radius: 20px;
+}
+.questions h2 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+}
+.questions button {
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 30px;
+    gap: 8px;
+    width: 192px;
+    height: 56px;
+    background: #1D1D1D;
+    
+    border: 3px solid #1D1D1D;
+    border-radius: 8px;    
+    
+}
+.questions button a {
+    font-family: 'Agrandir';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    text-decoration: none;
+
+}
+.contact {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+   
+   position: absolute;
+    top: 9000px;
+}
+.col-1 {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.col-1 img {
+    height: 60px;
+    width: 60px;
+}
+.col-1 p {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8E8E8E;
+}
+.sociel {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+.sociel ul {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+.sociel ul li {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+.sociel ul li a {
+    width: 32px;
+    height: 32px;
+}
+.col-2 {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+}
+.col-2 h5 {
+    font-family: 'Agrandir';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: #1D1D1D;
+}
+.col-2 ul {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+.col-2 ul li {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+.col-2 ul li a {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color:#1D1D1D;
+    text-decoration: none;
+    
 }
