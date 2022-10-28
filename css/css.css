@@ -898,12 +898,14 @@ height: 454px;
     
     display: flex;
     flex-flow: column nowrap;
+    background-image: url(../image/bg_pricing.png);
 }
 .pricing-head {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    padding: 0 0 40px;
 }
 .pricing-head h2 {
     font-family:Arial, Helvetica, sans-serif;
@@ -912,7 +914,7 @@ height: 454px;
     font-size: 40px;
     line-height: 52px;
     color: #1D1D1D;
-
+    margin-bottom: 0%;
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -924,7 +926,8 @@ height: 454px;
     font-size: 20px;
     line-height: 26px;
     text-align: center;
-    color:#1D1D1D
+    color:#1D1D1D;
+    margin-top: 8px;
 
     flex: none;
     order: 1;
@@ -935,6 +938,7 @@ height: 454px;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: stretch;
+    height:max-content;
 }
 .pack-1, .pack-2, .pack-3 {
     display: flex;
@@ -1007,8 +1011,8 @@ height: 454px;
 .services {
     display: flex;
     flex-direction: column;
-    align-items: stretch;
-    padding: 0px 0px 146px;
+    align-items: flex-start;
+    justify-content: flex-start;
     
     width: 233px;
 
@@ -1022,7 +1026,7 @@ height: 454px;
     align-items: flex-start;
     justify-content: flex-start;
     gap: 10px;
-    
+    line-height: 25px;
     width: 233px;
 
     flex: none;
@@ -1030,8 +1034,28 @@ height: 454px;
     flex-grow: 0;
 }
 .services ul {
-    display: flex;
-    flex-flow: column nowrap;
+text-align: left;
+list-style: none;
+padding-left: 0;
+}
+.services ul li:before {
+    content: '';
+    display: block;
+    width: 9px;
+    height: 14px;
+    top: 4px;
+    left: -22px;
+    border-radius: 0;
+    opacity: 1;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    border-right: 3px solid #4ba0d8;
+    border-bottom: 3px solid #4ba0d8;
+    position: absolute;
+    -webkit-transition: all .12s, border-color .08s;
+    transition: all .12s, border-color .08s;
 }
 .button-pricing {
     display: flex;
@@ -1039,6 +1063,7 @@ height: 454px;
     justify-content: center;
     align-items: center;
     padding: 0px;
+    background-color: white;
     
     width: 313px;
     height: 56px;
