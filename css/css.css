@@ -1136,6 +1136,12 @@ padding-left: 0;
     text-decoration: none;
 
 }
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
 .contact {
     display: flex;
     flex-flow: row wrap;
@@ -1175,13 +1181,14 @@ padding-left: 0;
     flex-flow: row wrap;
     align-items: flex-start;
     justify-content: space-evenly;
-    gap 5px;
+    gap: 5px;
 }
 .sociel ul li {
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+    margin-right: 26px;
 }
 .sociel ul li a {
     width: 32px;
@@ -1191,6 +1198,7 @@ padding-left: 0;
     display: flex;
     flex-flow: column nowrap;
     justify-content: flex-start;
+    align-items: flex-start;
 }
 .col-2 h5 {
     font-family: 'Agrandir';
@@ -1203,8 +1211,9 @@ padding-left: 0;
 .col-2 ul {
     display: flex;
     flex-flow: column nowrap;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-left: 0;
 }
 .col-2 ul li {
     display: flex;
@@ -1227,4 +1236,72 @@ padding-left: 0;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-end;
+    gap: 20px;
+}
+.form form button {
+    box-sizing: border-box; 
+    display: flex;
+    flex-direction: row;
+    padding: 16px 30px;
+    gap: 8px;
+    background: #F62369;
+    
+    border: 3px solid #1D1D1D;
+    border-radius: 8px;
+}
+.form form button a {
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: right;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    text-decoration: none;
+}
+label {
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: #1D1D1D;
+    height: 26px;;
+}
+input {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 10px;
+    width: 373px;
+    height: 52px;
+    border: 2px solid #D8D6DE;
+    border-radius: 8px;
+}
+.frame-60 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    position: absolute;
+    width: 1440px;
+    height: 36px;
+    left: 2px;
+    top: 9300px;
+    background-color: #000000;
+}
+.frame-60 p {
+    
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    
+    
+    color: #FFFFFF;
 }
