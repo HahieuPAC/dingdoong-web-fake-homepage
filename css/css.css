@@ -21,6 +21,9 @@ header {
     left: 0px;
     top: 0px;
 }
+.div-logo-mb {
+    display: none;
+}
 .div-logo {
     display: flex;
     flex-direction: row;
@@ -39,6 +42,9 @@ header {
     flex: none;
     order: 0;
     flex-grow: 0;
+}
+#vector {
+    display: none;
 }
 main {
     display: flex;
@@ -1304,4 +1310,67 @@ input {
     
     
     color: #FFFFFF;
+}
+
+@media only screen and (max-width: 767px) and (min-width:640px) {
+body {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content:space-between;
+    width: 100%;
+    max-width: 750px;
+    margin: 20px;
+}
+.nav-logo {
+    display: none;
+}
+.div-logo-mb {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    padding: 16px;
+    gap: 460px;
+
+    width: 100%;
+}
+.a-logo-mb {
+    float: left;
+}
+.a-vector {
+    float: right;
+}
+.a-vector img {
+    width: 28px;
+    height: 28px;
+}
+#logo-mb {
+    width: 48px;
+    height: 48px;
+}
+main {
+    display: flex;
+    flex-flow: column wrap;
+}
+.frame-6 {
+width: 100%;
+display: flex;
+flex-flow: column wrap;
+max-width: 750px;
+position: static;
+}
+.frame-8 {
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+}
+.frame-8 h1 {
+    font-family: 'Agrandir';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 49px;
+    text-align: center;
+    color: #1D1D1D;
+
+    align-self: stretch;
 }
