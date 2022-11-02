@@ -1,7 +1,6 @@
 body {
     position: relative;
     width: 1440px;
-    height: 10715px;
 }
 header {
     width: 100%;
@@ -187,8 +186,6 @@ flex-grow: 0;
     top: 188px;
 }
 .frame-8 h1 {
-    width: 733px;
-    height: 234px;
 
     font-family: 'Agrandir';
     font-style: normal;
@@ -265,7 +262,6 @@ flex-grow: 0;
     justify-content: space-between;
     position: absolute;
     width: 1201px;
-    height: 170px;
     left: 119px;
     top: 697px;
     
@@ -311,9 +307,10 @@ flex-grow: 0;
     left: 425px;
     top: 100px;
 }
+#frame-10-img-mb {
+    display: none ;
+}
 .frame-10 h3 {
-    width: 210px;
-    height: 52px;
 
     font-family:Arial, Helvetica, sans-serif;
     font-style: normal;
@@ -365,6 +362,9 @@ flex-grow: 0;
     height: 56px;
     left: 315px;
     top: 666px;
+}
+.frame-13-2 {
+    display: none;
 }
 .frame-13 li {
     display: flex;
@@ -1319,25 +1319,31 @@ body {
     justify-content:space-between;
     width: 100%;
     max-width: 750px;
-    margin: 20px;
+    align-items: center;
+}
+header {
+    display: flex;
+    width: 100%;
 }
 .nav-logo {
     display: none;
+    position: static;
 }
 .div-logo-mb {
     display: flex;
     flex-flow: row nowrap;
-    justify-content: center;
     padding: 16px;
-    gap: 460px;
+    gap: 473px;
 
     width: 100%;
 }
 .a-logo-mb {
     float: left;
+    position: static;
 }
 .a-vector {
     float: right;
+    position: static;
 }
 .a-vector img {
     width: 28px;
@@ -1349,7 +1355,9 @@ body {
 }
 main {
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
+    width: 100%;
+    max-width: 750px ;
 }
 .frame-6 {
 width: 100%;
@@ -1357,20 +1365,142 @@ display: flex;
 flex-flow: column wrap;
 max-width: 750px;
 position: static;
+justify-content: center;
+align-items: center;
 }
 .frame-8 {
     width: 100%;
     display: flex;
     flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
 }
 .frame-8 h1 {
     font-family: 'Agrandir';
     font-style: normal;
     font-weight: 700;
-    font-size: 38px;
-    line-height: 49px;
-    text-align: center;
+    font-size: 54px;
+    line-height: 65px;
     color: #1D1D1D;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 
     align-self: stretch;
+}
+.frame-8 p {
+    margin: 0%;
+    display: flex;
+    text-align: center;
+}
+.group-9 img {
+    position: static;
+}
+.group-40013 {
+    position: static;
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+}
+
+.companies {
+    position: static;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.rectangcle-2 {
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 50px 0;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    max-width: 750px;
+
+    position: static;
+}
+.frame-10 {
+    position: static;
+    justify-content: space-between;
+    width: 100%;
+}
+.frame-10 h3 {
+    margin: 0%;
+}
+#frame-10-img {
+    display: none;
+}
+#frame-10-img-mb {
+    display: flex;
+    position: static;
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(ss_2063524544.jpg);
+    border: 4px solid #000000;
+    box-shadow: 10px 10px 0px #000000;
+    border-radius: 10px;
+
+    width: 500px;
+    height: 290px;
+    box-sizing: border-box;
+}
+.frame-13 {
+    display: none;
+}
+.frame-13-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+
+
+    width: 238px;
+    height: 48px;
+}
+.frame-13-2 li {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 30px;
+    gap: 10px;
+    
+    width: 116px;
+    height: 46px;
+    
+    background: #FFFFFF;
+    box-shadow: inset -4px 4px 0px #1D1D1D, inset 4px 0px 0px #1D1D1D, inset 0px 4px 0px #1D1D1D;
+    border-radius: 8px 8px 0px 0px
+}
+.frame-13-2 li a {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 22px;
+    color: #1D1D1D;
+    text-decoration: none;
+}
+.design-space {
+    position: static;
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+}
+.frame-16 {
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.frame-17 h3, p {
+    text-align: center;
+}
+.img2 {
+    order: 1;
+    text-align: center;
 }
