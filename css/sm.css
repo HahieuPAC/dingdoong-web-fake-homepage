@@ -1,8 +1,202 @@
 body {
-    width: 100%;
+    width: 95%;
     max-width: 767px;
+    margin: 10px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
 }
   /* Nav logo */
-.nav-logo-md {
-    display: flex;
+.nav-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px;
+  justify-content: space-between;
+}
+.nav-logo button {
+  display: none;
+}
+.nav-logo-1 {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+#logo-img-1 {
+  width: 48px;
+  height: 48px;
+}
+.nav-logo-1 ul {
+  display: none;
+  flex-flow: row nowrap;
+}
+.nav-logo-1 ul li {
+  display: flex;
+  text-align: none;
+}
+.group-9 {
+  display: flex;
+  flex-flow: column nowrap;
+}
+.group-9-1 {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+
+}
+/* Have your delivery planned out & >customers happy */
+.group-9-1 h1 {
+  font-family: 'Agrandir';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 49px;
+  text-align: center;
+  color: #1D1D1D;
+}
+/* Create a shipping plan and control when and where the delivery
+happens with the most powerful tool on Shopify */
+.group-9-1 p {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  color: #1D1D1D;
+}
+.group-9-1 button {
+  box-sizing: border-box;
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 20px;
+  gap: 8px;
+  
+  width: 128px;
+  height: 42px;
+  
+  background: #F62369;
+  
+  border: 3px solid #1D1D1D;
+  border-radius: 6px;
+}
+.group-9-1 button a {
+  font-family: 'Agrandir';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  text-decoration: none;
+  color: white;
+}
+br {display: none;}
+.companies {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  box-sizing: border-box;
+  background: #FFFFFF;
+  border: 4px solid #000000;
+  box-shadow: 8px 8px 0px #000000;
+  border-radius: 10px;
+  margin:0 0 10% 0;
+}
+/* Trusted by these companies so far */
+.companies h4 {
+  font-family:Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  color: #1D1D1D;
+}
+.logo-companies {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+/* rectangle-2 */
+.rectangle-2 {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  background: #FFCB47;
+  border-bottom: 3px solid black;
+}
+.features {
+  display: flex;
+  flex-flow: column nowrap;
+}
+.features h3 {
+  font-family:Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  margin: 30% 0 0 0;
+
+  color: #1D1D1D;
+}
+.features p {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  margin: 5% 0 20% 0;
+  
+  text-align: center;
+  
+  color: #1D1D1D;
+}
+.rectangle-2 img {
+  box-sizing: border-box;
+  width: 320px;
+  height: 181px;
+  margin: 0 0 20% 0;
+
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+  box-shadow: 10px 10px 0px #000000;
+  border-radius: 10px;
+}
+.features-ul-sm {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 20%;
+
+  height: 48px;
+}
+.features-ul-sm li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 30px;
+  gap: 10px;
+  justify-content: space-around;
+  
+  width: 25%;
+  height: 85%;
+  
+  background: #FFFFFF;
+  box-shadow: inset -4px 4px 0px #1D1D1D, inset 4px 0px 0px #1D1D1D, inset 0px 4px 0px #1D1D1D;
+  border-radius: 8px 8px 0px 0px;
+}
+.features-ul-sm li a {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  color: #1D1D1D;
+  text-decoration: none;
+}
+.features-ul-md {
+  display: none;
 }

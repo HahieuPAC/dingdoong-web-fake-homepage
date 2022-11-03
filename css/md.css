@@ -1,11 +1,141 @@
 @media only screen and (min-width: 768px) {
 
     body {
-        width: 100%;
         max-width: 1440px;
     }
     /* Nav logo */
+    .nav-logo {
+        max-width: 1440px;
+        justify-content: space-between;
     }
-    .nav-logo-md {
+    
+    .nav-logo button {
         display: flex;
     }
+    .nav-logo-1 {
+        width: 50%;
+        
+    }
+    #logo-img-1 {
+        width: 68px;
+        height: 68px;
+    }
+
+    .nav-logo-1 ul {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        gap: 30%;
+    }
+    .nav-logo-1 ul li {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .nav-logo-1 ul li a {
+        text-decoration: none;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: black;
+        width: max-content;
+    }
+    .vector-img {
+        display: none;
+    }
+    .nav-logo button {
+        box-sizing: border-box;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 10px 20px;
+        gap: 8px;
+
+        width: 157px;
+        height: 42px;
+
+        background: #F62369;
+
+        border: 3px solid #1D1D1D;
+        border-radius: 6px;
+    }
+    .nav-logo button a {
+        font-family: 'Agrandir';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 22px;
+        color: white;
+        text-decoration: none;
+    }
+    .group-9 {
+        display: flex;
+        flex-flow: row nowrap;
+    }
+    .group-9-1 {
+        align-items: flex-start;
+        gap:3%;
+    }
+    /* Have your delivery planned out & >customers happy */
+    /* Create a shipping plan and control when and where the delivery
+happens with the most powerful tool on Shopify */
+    .group-9-1 h1, .group-9-1 p{
+        text-align: left;
+    }
+  
+    .group-9 img {
+        width: 533.55px;
+        height: 593px;
+    }
+    br {display: block;}
+    .logo-companies {
+        gap: 30px;
+    }
+    .rectangle-2 img {
+        width: 786px;
+        height: 441px;
+        margin: 0 0 10% 0;
+    }
+    .features p {
+        margin: 5% 0 30% 0;
+    }
+    .features-ul-sm {
+        display: none;
+    }
+    .features-ul-md {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 0px;
+        gap: 20%;
+      
+        height: 48px;
+    }
+    .features-ul-md li {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 12px 30px;
+        gap: 10px;
+        justify-content: space-around;
+        
+        width: 25%;
+        height: 85%;
+        
+        background: #FFFFFF;
+        box-shadow: inset -4px 4px 0px #1D1D1D, inset 4px 0px 0px #1D1D1D, inset 0px 4px 0px #1D1D1D;
+        border-radius: 8px 8px 0px 0px;
+      }
+      .features-ul-md li a {
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 22px;
+        color: #1D1D1D;
+        text-decoration: none;
+      }
+}
