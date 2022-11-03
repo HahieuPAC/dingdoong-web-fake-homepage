@@ -1,0 +1,11 @@
+@media only screen and (min-width: 768px) {
+
+    body {
+        width: 100%;
+        max-width: 1440px;
+    }
+    /* Nav logo */
+    }
+    .nav-logo-md {
+        display: flex;
+    }
