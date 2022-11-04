@@ -2,6 +2,7 @@
 
     body {
         max-width: 1440px;
+        width: 100%;
     }
     /* Nav logo */
     .nav-logo {
@@ -138,4 +139,133 @@ happens with the most powerful tool on Shopify */
         color: #1D1D1D;
         text-decoration: none;
       }
+      .design-info-1 {
+        flex-flow: row-reverse nowrap;
+        margin: 5% 0 0 0;
+        gap:5%;
+      }
+      .design-info-text {
+         align-items: flex-start;
+    }
+    .design-info-text h4 {
+        margin-bottom: auto;
+    }
+    .design-info-text p {
+        text-align: left;
+    }
+    .design-info-img {
+        width: 393.51px;
+        height: 523.55px;
+    }
+    .design-info-2 {
+        flex-flow: row nowrap;
+        gap:5%;
+    }
+    .design-info-3 {
+        flex-flow: row-reverse nowrap;
+        gap:5%;
+ 
+    }
+    .design-info-4 {
+        flex-flow: row nowrap;
+        gap:5%;
+    }
+    .trusted-line1 {
+        flex-flow: row nowrap;
+        padding: 0 8%;
+      }
+      .trusted-1, .trusted-2 {
+        flex:1;
+      }
+      .trusted-2 {
+        align-items: flex-start;
+      }
+      .trusted-2 p {
+        text-align: left;
+      }
+    .trusted-1 h3, .trusted-1 p {
+        text-align:left;
+    }
+    .trusted-3 {
+        display: flex;
+        flex-flow: row nowrap;
+        gap: 5%;
+    }
+    .trusted-3-1 {
+        width: 29%;
+        margin: 0;
+    }
+    .businesses-8000-img {
+        display: none;
+    }
+    .businesses-8000-img-md {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        align-items: center;
+        gap: 7%;
+        margin-top: 5%;
+    }
+    #fruit-md, #white-flower {
+        width: 286px;
+        height: 363px;
+    }
+    #businesser-md {
+        width: 354px;
+        height: 454px;
+    }
+    .businesses-8000-catalog {
+        margin-top: 5%;
+    }
+    .businesses-8000-catalog {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items:center;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .businesses-8000-catalog-1 {
+        width: 100%;
+        justify-content: center;
+        gap: 4%;
+    }
+    .statis {
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        gap:5%;
+        width: 100%;
+    }
+    #statis-md {
+        display: flex;
+        width: 373px;
+        height: 497px;
+        flex:1;
+        margin: 5% 0;
+    }
+    #statis-sm {
+        display: none;
+    }
+    .play-button {
+        display: none;
+    }
+    .play-button-md {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        gap: 7%;
+    }
+    #play-button-businesser-md {
+        width: 70%;
+       
+    }
+    #left-button-md {
+        width: 56px;
+        height: 56px;
+   
+    }
+    .people-table{
+        width: 40%;
+    }
+    
 }
