@@ -267,5 +267,60 @@ happens with the most powerful tool on Shopify */
     .people-table{
         width: 40%;
     }
-    
+    .pricing-table {
+        flex-flow: row nowrap;
+        justify-content: space-around;
+    }
+    .more {
+        width: 75%;
+    }
+    .more h3 {
+        margin: 7% 0 0 0;
+    }
+    .more button {
+        margin: 7% 0 7% 0 ;
+    }
+    footer {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+    }
+    .footer-1 {
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        margin: 10% 0 0 0;
+        width: 75%;
+        align-items: flex-start;
+      }
+      .footer-logo {
+        align-items: flex-start;
+      }
+      .footer-logo img {
+        width: 60px;
+        height: 60px;        
+      }
+    .footer-text {
+        align-items: flex-start;
+        margin: 0;
+    }
+    .footer-text h4 {
+        margin: 0 0 15px 0;
+    }
+.footer-input {
+    align-items: flex-end;
+}
+.label {
+    text-align: left;
+    font-size: 20px;
+}
+#enter-email {
+    width: 100%;
+}
+#subscribe-button {
+    width: 35%;
+    height: 50px;
+}
+#copyright {
+    margin-top: 5%;
+}
 }
