@@ -55,8 +55,8 @@
         padding: 10px 20px;
         gap: 8px;
 
-        width: 157px;
-        height: 42px;
+        width: fit-content;
+        height: fit-content;
 
         background: #F62369;
 
@@ -225,9 +225,11 @@ happens with the most powerful tool on Shopify */
         width: 100%;
     }
     .businesses-8000-catalog-1 {
+        flex-flow: row nowrap;
+        margin: 1%;
         width: 100%;
         justify-content: center;
-        gap: 4%;
+        gap: 3.5%;
     }
     .statis {
         flex-flow: row nowrap;
@@ -253,10 +255,10 @@ happens with the most powerful tool on Shopify */
         display: flex;
         flex-flow: row nowrap;
         align-items: center;
+        justify-content: center;
         gap: 7%;
     }
     #play-button-businesser-md {
-        width: 70%;
        
     }
     #left-button-md {
