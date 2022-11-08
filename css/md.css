@@ -21,12 +21,15 @@
         width: 68px;
         height: 68px;
     }
+    .logo-img {
+        margin-right: 35%;
+    }
 
     .nav-logo-1 ul {
         display: flex;
         flex-flow: row nowrap;
         align-items: center;
-        gap: 30%;
+        gap: 9%;
     }
     .nav-logo-1 ul li {
         display: flex;
@@ -38,12 +41,18 @@
         font-family: 'DM Sans';
         font-style: normal;
         font-weight: 400;
-        font-size: 16px;
+        font-size: 24px;
         line-height: 24px;
         color: black;
-        width: max-content;
+        width:103px;
     }
-    .vector-img {
+    .nav-logo-1 ul li a:hover {
+        text-shadow: 2px 2px 0px #000000;
+        color: orange;
+        font-weight: 700;
+        transition: 0.3s;
+    }
+    .dropmenu {
         display: none;
     }
     .nav-logo button {
@@ -59,9 +68,12 @@
         height: fit-content;
 
         background: #F62369;
-
-        border: 3px solid #1D1D1D;
+        border: none;
         border-radius: 6px;
+        border: 3px solid #1D1D1D;
+    }
+    .nav-logo button:hover {
+        background: orange ;
     }
     .nav-logo button a {
         font-family: 'Agrandir';
@@ -195,6 +207,9 @@ happens with the most powerful tool on Shopify */
         width: 29%;
         margin: 0;
     }
+    .businesses-8000-text h4{
+        font-size: 40px;
+    }
     .businesses-8000-img {
         display: none;
     }
@@ -230,6 +245,7 @@ happens with the most powerful tool on Shopify */
         width: 100%;
         justify-content: center;
         gap: 3.5%;
+        height: 55px
     }
     .statis {
         flex-flow: row nowrap;
@@ -269,6 +285,18 @@ happens with the most powerful tool on Shopify */
     .people-table{
         width: 40%;
     }
+    .people-text h3 {
+        font-size: 40px;
+    }
+    .people-text p {
+        font-size: 20px;
+    }
+    .people-table p {
+        font-size: 16px;
+    }
+    .people-table h4 {
+        font-size: 18px;
+    }
     .pricing-table {
         flex-flow: row nowrap;
         justify-content: space-around;
@@ -278,6 +306,7 @@ happens with the most powerful tool on Shopify */
     }
     .more h3 {
         margin: 7% 0 0 0;
+        font-size: 40px;
     }
     .more button {
         margin: 7% 0 7% 0 ;
