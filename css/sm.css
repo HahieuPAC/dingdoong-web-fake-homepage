@@ -66,6 +66,9 @@ body {
   top: 0.7%;
   gap:20px;
   padding-bottom: 10%;
+
+  overflow: scroll;
+  height: 150px;
 }
 .menu-button {
   display: flex;
@@ -92,6 +95,10 @@ body {
   
   border: 3px solid #1D1D1D;
   border-radius: 6px;
+}
+.menu-button button a {
+  color: white;
+  font-size: 16px;
 }
 .menu a {
   text-decoration: none;
