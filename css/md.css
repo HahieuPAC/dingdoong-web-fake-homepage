@@ -247,6 +247,9 @@ happens with the most powerful tool on Shopify */
         gap: 3.5%;
         height: 55px
     }
+    . .businesses-8000-catalog-1 button {
+        width: 14%;
+    }
     .statis {
         flex-flow: row nowrap;
         justify-content: center;
@@ -274,8 +277,21 @@ happens with the most powerful tool on Shopify */
         justify-content: center;
         gap: 7%;
     }
-    #play-button-businesser-md {
-       
+
+    .video-player {
+        display: block;
+    }
+    .video-player video {
+        z-index: 1;
+    }
+    .video-player button {
+        position: absolute;
+        top: 75.7%;
+        left: 48%;
+    }
+    .video-player button img {
+        width: 100px;
+        height: 100px;
     }
     #left-button-md {
         width: 56px;

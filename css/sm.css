@@ -631,7 +631,7 @@ br {display: none;}
   align-items: center;
   padding: 14px 20px;
   
-  width: 14%;
+  width: fit-content;
   height: fit-content;
   
   background: #FFECD0;
@@ -730,6 +730,23 @@ br {display: none;}
 }
 .play-button-md {
   display: none;
+}
+.video-player {
+  display: block;
+}
+.video-player video {
+  z-index: 1;
+}
+.video-player button {
+  position: absolute;
+  top: 67.5%;
+  left: 41%;
+  background: none;
+  border: none;
+}
+.video-player button img {
+  width: 60px;
+  height: 60px;
 }
 .people-table {
   display: flex;
