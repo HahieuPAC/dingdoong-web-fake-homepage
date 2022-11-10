@@ -241,7 +241,6 @@ br {display: none;}
   align-items: center;
   justify-content: center;
   background: #FFCB47;
-  border-bottom: 3px solid black;
 }
 .features {
   display: flex;
@@ -284,27 +283,32 @@ br {display: none;}
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+  justify-content: space-evenly;
   padding: 0px;
-  gap: 20%;
+  gap: 5%;
 
   height: 48px;
+  position: relative;
+  bottom: 0;
+  top: 100%;
+  margin: 0;
+
 }
 .features-ul-sm li {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 12px 30px;
+  padding: 1px 30px;
   gap: 10px;
   justify-content: space-around;
   
-  width: 25%;
-  height: 85%;
+  width: fit-content;
+  height: 46px;
   
   background: #FFFFFF;
-  box-shadow: inset -4px 4px 0px #1D1D1D, inset 4px 0px 0px #1D1D1D, inset 0px 4px 0px #1D1D1D;
   border-radius: 8px 8px 0px 0px;
 }
-.features-ul-sm li a {
+.features-ul-sm li a, .features-ul-sm li select  {
   font-family: 'DM Sans';
   font-style: normal;
   font-weight: 700;
@@ -312,6 +316,22 @@ br {display: none;}
   line-height: 22px;
   color: #1D1D1D;
   text-decoration: none;
+}
+.features-ul-sm li select {
+  border: none;
+  background: none;
+  font-size: 14px;
+  width: 100%;
+}
+
+.features-ul-sm li select option {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  
+  color: #1D1D1D;  
 }
 .features-ul-md {
   display: none;
