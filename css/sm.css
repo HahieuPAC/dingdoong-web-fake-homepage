@@ -150,6 +150,7 @@ body {
 .group-9 {
   display: flex;
   flex-flow: column nowrap;
+  align-items: center;
 }
 .group-9-1 {
   display: flex;
@@ -207,6 +208,10 @@ happens with the most powerful tool on Shopify */
   line-height: 22px;
   text-decoration: none;
   color: white;
+}
+.group-9 img {
+  width: 243px;
+  height: 248px;
 }
 br {display: none;}
 .companies {
