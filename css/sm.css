@@ -16,7 +16,8 @@ body {
     width: 95%;
     max-width: 767px;
     margin: 10px;
-    position: absolute;
+    position: relative;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
 }

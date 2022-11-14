@@ -10,6 +10,7 @@
     .nav-logo {
         max-width: 1440px;
         justify-content: space-between;
+        margin: 0 5%;
     }
     
     .nav-logo button {
@@ -89,6 +90,7 @@
     .group-9 {
         display: flex;
         flex-flow: row nowrap;
+        margin: 0 5%;
     }
     .group-9-1 {
         align-items: flex-start;
@@ -104,6 +106,9 @@ happens with the most powerful tool on Shopify */
     .group-9 img {
         width: 533.55px;
         height: 593px;
+    }
+    .companies {
+        margin: 0 5% 10%;
     }
     br {display: block;}
     .logo-companies {
@@ -157,7 +162,7 @@ happens with the most powerful tool on Shopify */
       }
       .design-info-1 {
         flex-flow: row-reverse nowrap;
-        margin: 5% 0 0 0;
+        margin: 5% 5% 0;
         gap:5%;
       }
       .design-info-text {
@@ -176,15 +181,18 @@ happens with the most powerful tool on Shopify */
     .design-info-2 {
         flex-flow: row nowrap;
         gap:5%;
+        margin: 5% 5% 0;
     }
     .design-info-3 {
         flex-flow: row-reverse nowrap;
         gap:5%;
+        margin: 5% 5% 0;
  
     }
     .design-info-4 {
         flex-flow: row nowrap;
         gap:5%;
+        margin: 5% 5% 0;
     }
     .trusted-line1 {
         flex-flow: row nowrap;
