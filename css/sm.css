@@ -397,6 +397,10 @@ br {display: none;}
   background: orange;
 }
 .design-info-text button a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
   font-family:'Agrandir';
   font-style: normal;
   font-weight: 700;
@@ -404,7 +408,17 @@ br {display: none;}
   line-height: 22px;
   color: white;
   text-decoration: none;
+  gap: 8px;
 }
+.right_arrow {
+width: 5px;
+height: 5px;
+border: solid white;
+border-width: 0 2px 2px 0;
+
+transform: rotate(-45deg);
+
+} 
 .design-info-img {
   width: 280px;
   height: 288px;
