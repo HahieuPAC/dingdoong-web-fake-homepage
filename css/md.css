@@ -325,6 +325,9 @@ happens with the most powerful tool on Shopify */
     .people-table h4 {
         font-size: 18px;
     }
+    .video-player button {
+        display: flex;
+    }
     .pricing-table {
         flex-flow: row nowrap;
         justify-content: space-around;

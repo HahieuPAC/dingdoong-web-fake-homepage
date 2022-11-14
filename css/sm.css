@@ -393,7 +393,7 @@ br {display: none;}
   padding: 10px 20px;
   gap: 8px;
   
-  width: fit-content;
+  width: 40%;
   height: 42px;
   
   background: #F62369;
@@ -795,6 +795,7 @@ transform: rotate(-45deg);
   left: 41%;
   background: none;
   border: none;
+  display: none;
 }
 .video-player button img {
   width: 60px;
