@@ -784,17 +784,9 @@ transform: rotate(-45deg);
   display: none;
 }
 .video-player {
-  display: block;
-}
-.video-player video {
-  z-index: 1;
+  display: flex;
 }
 .video-player button {
-  position: absolute;
-  top: 67.5%;
-  left: 41%;
-  background: none;
-  border: none;
   display: none;
 }
 .video-player button img {
